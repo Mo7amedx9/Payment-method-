@@ -6,12 +6,14 @@ body {
   padding: 0;
   text-align: center;
 }
+
 h2 {
   color: #fff;
   margin-top: 20px;
   font-size: 1.5em;
   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 }
+
 #logo {
   width: 150px;
   margin: 20px 0;
@@ -19,12 +21,14 @@ h2 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(1, 1, 10, 0.6);
 }
+
 #banner {
   font-size: 0em;
   color: #ddd;
   margin-bottom: 20px;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
+
 #paymentForm {
   background: #333;
   border-radius: 3px;
@@ -33,13 +37,121 @@ h2 {
   max-width: 600px;
   box-shadow: 0 6px 12px rgba(1, 1, 1, 0.5);
 }
+
 .payment_modal_input {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   color: #fff;
 }
+
 .payment_modal_input b {
   margin-right: 10px;
-  font
-  
+  font-weight: bold;
+}
+
+#vodafone_cash_code {
+  background-color: #444;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+#copyButton {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1em;
+  color: #f36f6f;
+}
+
+#copyConfirmation {
+  display: inline-block;
+  margin-left: 1px;
+  color: #aaffaa;
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="file"],
+select {
+  background: #222;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+  width: calc(100% - 24px);
+  margin-bottom: 20px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="tel"]:focus,
+input[type="email"]:focus,
+select:focus {
+  border-color: #f36f6f;
+  outline: none;
+  box-shadow: 0 0 5px rgba(243, 111, 111, 0.6);
+}
+
+button {
+  background-color: #f36f6f;
+  color: #fff;
+  border: 20px;
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #d24d4d;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #000;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
