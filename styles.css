@@ -1,2 +1,45 @@
-/* كـسـمـك يـعـبـيـط */
-#logo{width:150px;}#logo,body{margin-left:0;}#logo{margin-bottom:.208333333in;}body,#logo{margin-right:0;}#paymentForm,#logo{margin-top:.208333333in;}[class~=payment_modal_input]{display:flex;}#logo{border-left-width:.020833333in;}body{font-family:Arial,sans-serif;}#logo{border-bottom-width:.020833333in;}body{background-color:#000;}#logo{border-right-width:.020833333in;}#logo{border-top-width:.020833333in;}#logo{border-left-style:solid;}#logo{border-bottom-style:solid;}[class~=payment_modal_input],body,h2{color:#fff;}#logo{border-right-style:solid;}#logo{border-top-style:solid;}#logo{border-left-color:#fff;}#logo{border-bottom-color:#fff;}body{margin-bottom:0;}#logo{border-right-color:#fff;}body{margin-top:0;}#logo{border-top-color:#fff;}body{padding-left:0;}[class~=payment_modal_input]{align-items:center;}#logo{border-image:none;}#logo{border-radius:.104166667in;}body{padding-bottom:0;}body{padding-right:0;}body{padding-top:0;}body{text-align:center;}#logo{box-shadow:0 3pt 6pt rgba(1,1,10,.6);}#banner{font-size:0em;}h2{margin-top:20px;}h2{font-size:1.5em;}#banner{color:#ddd;}h2{text-shadow:.75pt 2px 3.75pt rgba(0,0,0,.8);}[class~=payment_modal_input],#banner{margin-bottom:1.25pc;}#banner{text-shadow:.010416667in .0625pc .1875pc rgba(0,0,0,.7);}#paymentForm{background:#333;}#paymentForm{border-radius:.03125in;}#paymentForm{padding-left:1.875pc;}[class~=payment_modal_input] b{margin-right:.625pc;}#paymentForm{padding-bottom:1.875pc;}#paymentForm{padding-right:1.875pc;}#paymentForm{padding-top:1.875pc;}#paymentForm{margin-left:auto;}#paymentForm{margin-bottom:.208333333in;}#paymentForm{margin-right:auto;}#paymentForm{max-width:450pt;}#paymentForm{box-shadow:0 6px .75pc rgba(1,1,1,.5);}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h2 {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.5em;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
+}
+#logo {
+  width: 150px;
+  margin: 20px 0;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(1, 1, 10, 0.6);
+}
+#banner {
+  font-size: 0em;
+  color: #ddd;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+#paymentForm {
+  background: #333;
+  border-radius: 3px;
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 6px 12px rgba(1, 1, 1, 0.5);
+}
+.payment_modal_input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.payment_modal_input b {
+  margin-right: 10px;
+  font
+  
